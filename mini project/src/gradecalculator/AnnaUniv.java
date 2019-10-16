@@ -8,14 +8,16 @@ public class AnnaUniv
 
 	public static void main(String[]args)
 	{
-
+		int o=4;
+			do {
 				System.out.println("1. TO CALCULATE YOUR GPA FOR 3 SUBJECTS");
 				System.out.println("2. TO CALCULATE YOUR GPA FOR 8 SUBJECTS");
 				System.out.println("3. TO CALCULATE YOUR GPA FOR 9 SUBJECTS");
 				System.out.println("4. TO CALCULATE YOUR CGPA ");
-				System.out.print("Enter your choice:");
+				System.out.print("\nEnter your choice:");
 				Scanner r = new Scanner(System.in);
 				int option=r.nextInt();
+				String spacing="------------------------------------------------------------------------------------";
 				
 				
 				switch(option)
@@ -45,7 +47,7 @@ public class AnnaUniv
 					float x8=r.nextFloat();
 					float a13=Conversion.strtoINT(x7,x8);
 					float gpa=(a11+a12+a13)/(x2+x5+x8);
-					System.out.println("GPA :"+gpa);
+					System.out.println("\n"+spacing+"\n"+"GPA :"+gpa+"\n"+spacing+"\n");
 					break;
 				
 				case 2:
@@ -117,7 +119,7 @@ public class AnnaUniv
 					
 					
 					double gpa1=(a14+a15+a16+x17+a18+a19+a20+a21)/(x11+x14+x17+x20+x23+x26+x29+x32);
-					System.out.println(" GPA: "+gpa1);
+					System.out.println("\n"+spacing+"\n"+" GPA: "+gpa1+"\n"+spacing+"\n");
 					break;
 	
 				case 3:
@@ -189,19 +191,20 @@ public class AnnaUniv
 					
 					
 					float gpa2=(a22+a23+a24+a25+a26+a27+a28+a29+a30)/(x38+x41+x44+x47+x50+x53+x56+x59+x62);
-					System.out.println(" GPA: "+gpa2);
+					System.out.println("\n"+spacing+"\n"+" GPA: "+gpa2+"\n"+spacing+"\n");
 					break;
 				case 4:
-					System.out.println("ENTER THE NUMBER OF COMPLETED SEMESTERS");
+					System.out.println("ENTER THE NUMBER OF COMPLETED SEMESTERS :");
 					float g=r.nextFloat();
 					float b1=Conversion.cgpa(g);
-					System.out.println("YOUR CGPA IS:"+b1);
+					System.out.println("\n"+spacing+"\n"+"YOUR CGPA IS:"+b1+"\n"+spacing+"\n");
 					break;
 					
 				default:
-					System.out.println("Please enter a valid data!!!");
+					System.out.println("please enter a valid data!!!");
 				
 				}
+			}while(o!=0);
 
 		     }
     	}

@@ -54,9 +54,9 @@ public class Conversion
 		{
 			
 			
-			System.out.println("ENTER THE GPA OF SEM 1");
+			System.out.println("ENTER THE GPA OF SEM 1 :");
 			 float q1=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 2");
+			System.out.println("ENTER THE GPA OF SEM 2 :");
 			float q2=sc.nextFloat();
 			 f1=(q1+q2)/2;
 		}    
@@ -64,11 +64,11 @@ public class Conversion
 		else if (g==3)
 		{
 
-			System.out.println("ENTER THE GPA OF SEM 1");
+			System.out.println("ENTER THE GPA OF SEM 1 :");
 			 float q1=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 2");
+			System.out.println("ENTER THE GPA OF SEM 2 :");
 			float q2=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 3");
+			System.out.println("ENTER THE GPA OF SEM 3 :");
 			 float q3=sc.nextFloat();
 			 f1=(q1+q2+q3)/3;
 		}
@@ -76,13 +76,13 @@ public class Conversion
 		else if (g==4)
 		{
 
-			System.out.println("ENTER THE GPA OF SEM 1");
+			System.out.println("ENTER THE GPA OF SEM 1 :");
 			 float q1=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 2");
+			System.out.println("ENTER THE GPA OF SEM 2 :");
 			float q2=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 3");
+			System.out.println("ENTER THE GPA OF SEM 3 :");
 			 float q3=sc.nextFloat();
-			 System.out.println("ENTER THE GPA OF SEM 4");
+			 System.out.println("ENTER THE GPA OF SEM 4 :");
 			 float q4=sc.nextFloat();
 		 f1=(q1+q2+q3+q4)/4;
 		}
@@ -91,15 +91,15 @@ public class Conversion
 		else if (g==5)
 		{
 
-			System.out.println("ENTER THE GPA OF SEM 1");
+			System.out.println("ENTER THE GPA OF SEM 1 :");
 			float q1=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 2");
+			System.out.println("ENTER THE GPA OF SEM 2 :");
 			float q2=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 3");
+			System.out.println("ENTER THE GPA OF SEM 3 :");
 			float q3=sc.nextFloat();
-			 System.out.println("ENTER THE GPA OF SEM 4");
+			 System.out.println("ENTER THE GPA OF SEM 4 :");
 			 float q4=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 5");
+			System.out.println("ENTER THE GPA OF SEM 5 :");
 			float q5=sc.nextFloat();
 			 f1=(q1+q2+q3+q4+q5)/5;
 		}
@@ -125,19 +125,19 @@ public class Conversion
 		else if (g==7)
 		{
 
-			System.out.println("ENTER THE GPA OF SEM 1");
+			System.out.println("ENTER THE GPA OF SEM 1 :");
 			float q1=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 2");
+			System.out.println("ENTER THE GPA OF SEM 2 :");
 			float q2=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 3");
+			System.out.println("ENTER THE GPA OF SEM 3 :");
 			float q3=sc.nextFloat();
-			 System.out.println("ENTER THE GPA OF SEM 4");
+			 System.out.println("ENTER THE GPA OF SEM 4 :");
 			 float q4=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 5");
+			System.out.println("ENTER THE GPA OF SEM 5 :");
 			float q5=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 6");
+			System.out.println("ENTER THE GPA OF SEM 6 :");
 			float q6=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 7");
+			System.out.println("ENTER THE GPA OF SEM 7 :");
 			float q7=sc.nextFloat();
 			
 			 f1=(q1+q2+q3+q4+q5+q6+q7)/7;
@@ -146,21 +146,21 @@ public class Conversion
 		else if (g==8)
 		{
 
-			System.out.println("ENTER THE GPA OF SEM 1");
+			System.out.println("ENTER THE GPA OF SEM 1 :");
 			float q1=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 2");
+			System.out.println("ENTER THE GPA OF SEM 2 :");
 			float q2=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 3");
+			System.out.println("ENTER THE GPA OF SEM 3 :");
 			float q3=sc.nextFloat();
-			 System.out.println("ENTER THE GPA OF SEM 4");
+			 System.out.println("ENTER THE GPA OF SEM 4 :");
 			 float q4=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 5");
+			System.out.println("ENTER THE GPA OF SEM 5 :");
 			float q5=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 6");
+			System.out.println("ENTER THE GPA OF SEM 6 :");
 			float q6=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 7");
+			System.out.println("ENTER THE GPA OF SEM 7 :");
 			float q7=sc.nextFloat();
-			System.out.println("ENTER THE GPA OF SEM 8");
+			System.out.println("ENTER THE GPA OF SEM 8 :");
 			float q8=sc.nextFloat();
 			 f1=(q1+q2+q3+q4+q5+q6+q7+q8)/8;
 		}
